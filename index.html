@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200&family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Sustainable</title>
+</head>
+<body>
+    <script>
+        window.onload = function() {
+            document.getElementById("player").play();
+        }
+        $(document).ready(function() {
+            $("#player").get(0).play();
+        });
+    </script>
+    
+    <iframe src="video/250-milliseconds-of-silence.mp3" allow="autoplay" id="audio" style="display: none"></iframe>
+    <audio autoplay loop  id="player">
+        <source src="video/Nick_Cave_The_Bad_Seeds_Red_Right_Hand_Ringtone_(by Fringster.com).mp3" type="audio/mp3">
+    </audio> 
+    <section class="showcase">
+        <header>
+            <h2 class="logo">Earth</h2>
+            <div class="toggle">
+                <i class="fas fa-ellipsis-v"></i>
+            </div>
+        </header>
+
+        <video src="video/Pexels Videos 1448735.mp4" muted loop autoplay></video>
+        <div class="overlay"></div>
+            <div class="text">
+                <h2>Never Stop</h2>
+                <h3>To make the difference</h3>
+                <p>Humanity is barreling toward a "ghastly future" of mass extinctions, health crises and constant climate-induced disruptions to society, one that can only be prevented if world leaders start taking environmental threats seriously.</p>
+                <a href="#">Explore</a>
+            </div>
+
+            <ul class="social">
+                <li><a href="/"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="/"><i class="fab fa-linkedin-in"></i></a></li>
+                <li><a href="/"><i class="fab fa-facebook"></i></a></li>
+            </ul>
+    </section>
+
+    <div class="menu">
+        <ul>
+            <li>Home</li>
+            <li>News</li>
+            <li>Donate</li>
+            <li>Centers</li>
+            <li>Contact</li>
+        </ul>
+    </div>
+        <script>
+            const menuToggle = document.querySelector('.toggle')
+            const showcase = document.querySelector('.showcase')
+
+            menuToggle.addEventListener('click', () =>{
+                menuToggle.classList.toggle('active')
+                showcase.classList.toggle('active')
+            })
+        </script>
+</body>
+</html>
