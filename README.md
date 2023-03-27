@@ -17,8 +17,11 @@ Well is this mean time. Checkout the project. Perhaps some brainstorm cames to y
 ## Take a look 
 The final result you can see **🔰[here](https://bumboobee.github.io/the-earth/)🔰**
 
+<div align="center">
+  
 ![giphy](https://user-images.githubusercontent.com/94147847/227971892-563740fc-2f96-4145-9e25-265a1f5d0499.gif)
 
+</div>
 
 > Estou saudando a mandioca. Acho uma das maiores conquistas do Brasil
 >> Dilma Vana Rousseff 
